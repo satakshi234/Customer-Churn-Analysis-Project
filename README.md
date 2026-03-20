@@ -18,32 +18,65 @@ Provide actionable business insights
 # 📷 Dashboard Preview
 ![Dashboard](Churn_Analysis.png)
 
-# 📂 Dataset Description
+# 📂 Dataset Details (Enhanced View)
 
-The dataset contains customer-level information with the following features:
+This dataset captures customer behavior, subscription details, and billing information to analyze churn patterns effectively.
 
-Column Name	Description
-customerID	Unique ID for each customer
-gender	Male / Female
-SeniorCitizen	Whether customer is senior (1 = Yes, 0 = No)
-Partner	Has a partner (Yes/No)
-Dependents	Has dependents (Yes/No)
-tenure	Number of months with the company
-PhoneService	Phone service subscription
-MultipleLines	Multiple lines subscription
-InternetService	Type of internet (DSL, Fiber, None)
-OnlineSecurity	Online security service
-OnlineBackup	Backup service
-DeviceProtection	Device protection
-TechSupport	Technical support
-StreamingTV	TV streaming
-StreamingMovies	Movie streaming
-Contract	Contract type (Month-to-month, One year, Two year)
-PaperlessBilling	Billing mode
-PaymentMethod	Payment method used
-MonthlyCharges	Monthly bill amount
-TotalCharges	Total amount charged
-Churn	Whether customer left (Yes/No)
+# 🧾 Customer Information
+
+customerID → Unique identifier assigned to each customer
+
+gender → Customer gender (Male / Female)
+
+SeniorCitizen → Indicates if the customer is a senior citizen (1 = Yes, 0 = No)
+
+Partner → Whether the customer has a partner (Yes / No)
+
+Dependents → Whether the customer has dependents (Yes / No)
+
+# 📞 Service Subscription Details
+
+PhoneService → Availability of phone service
+
+MultipleLines → Whether multiple lines are subscribed
+
+InternetService → Type of internet service (DSL / Fiber Optic / None)
+
+# 🔐 Value-Added Services
+
+OnlineSecurity → Subscription to online security service
+
+OnlineBackup → Backup service availability
+
+DeviceProtection → Device protection plan
+
+TechSupport → Access to technical support
+
+# 🎬 Entertainment Services
+
+StreamingTV → Subscription to TV streaming
+
+StreamingMovies → Subscription to movie streaming
+
+# 📃 Contract & Billing Information
+
+Contract → Type of contract (Monthly / 1 Year / 2 Year)
+
+PaperlessBilling → Billing mode (Paperless or not)
+
+PaymentMethod → Mode of payment used
+
+# 💰 Financial Metrics
+
+MonthlyCharges → Amount charged per month
+
+TotalCharges → Total amount billed to the customer
+
+tenure → Duration (in months) the customer has stayed
+
+# 🔄 Target Variable
+
+Churn → Indicates whether the customer has left the service (Yes / No)
 
 # 🧮 Measures / KPIs Created
 
