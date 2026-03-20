@@ -15,6 +15,9 @@ Visualize churn trends using dashboards
 
 Provide actionable business insights
 
+# 📷 Dashboard Preview
+![Dashboard](Churn_Analysis.png)
+
 # 📂 Dataset Description
 
 The dataset contains customer-level information with the following features:
